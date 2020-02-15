@@ -9,7 +9,6 @@ function FooterMenu(props) {
             <ul>
                 {props.footerMenuItems.map(el => <FooterMenuItem key={el.text} footerMenuItem={el}/>)}
             </ul>
-
         </nav>
     );
 }

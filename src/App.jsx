@@ -29,7 +29,7 @@ function App() {
         link: '3item-page'
     }];
 
-    const textForFooter = 'He as compliment unreserved projecting. Between had observe pretend delight for believe.';
+    const textForFooter = 'Version 0.0.1';
 
     return (
         <div className="App">

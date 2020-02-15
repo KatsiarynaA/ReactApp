@@ -9,7 +9,6 @@ function HeaderMenu(props) {
             <ul>
                 {props.headerMenuItems.map(el => <HeaderMenuItem key={el.text} headerMenuItem={el}/>)}
             </ul>
-
         </nav>
     );
 }
