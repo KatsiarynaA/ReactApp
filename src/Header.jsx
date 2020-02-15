@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
-import Menu1 from './Menu1';
+import HeaderMenu from './HeaderMenu';
 
 function Header(props) {
 
@@ -8,7 +8,7 @@ function Header(props) {
         <header>
             <div className="container">
                 <Logo />
-                <Menu1 menuItems1 ={props.menuItems1}/>
+                <HeaderMenu headerMenuItems ={props.headerMenuItems}/>
             </div>
         </header>
     );

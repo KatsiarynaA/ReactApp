@@ -33,9 +33,9 @@ function App() {
 
     return (
         <div className="App">
-            <Header menuItems1={items1} />
+            <Header headerMenuItems={items1} />
             <Content />
-            <Footer menuItems1={items1} menuItems2={items2} text={textForFooter}/>
+            <Footer footerMenuItems1={items1} footerMenuItems2={items2} text={textForFooter}/>
         </div>
     );
 }

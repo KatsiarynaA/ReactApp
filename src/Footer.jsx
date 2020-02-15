@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
-import Menu1 from "./Menu1";
-import Menu2 from "./Menu2";
+import FooterMenu from "./FooterMenu";
 
 function Footer(props) {
 
@@ -9,8 +8,8 @@ function Footer(props) {
         <footer>
             <div className="container">
                 <Logo />
-                <Menu1 menuItems1={props.menuItems1}/>
-                <Menu2 menuItems2 ={props.menuItems2}/>
+                <FooterMenu footerMenuItems={props.footerMenuItems1}/>
+                <FooterMenu footerMenuItems={props.footerMenuItems2}/>
                 <p>{props.text}</p>
             </div>
         </footer>
